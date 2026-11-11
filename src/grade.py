@@ -11,7 +11,7 @@ def score_to_letter_grade(score):
         return "C"
     elif score >= 55:
         return "D+"
-    elif score > 50:
+    elif score >= 50:
         return "D"
     else:
         return "F"
